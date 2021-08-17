@@ -1,0 +1,30 @@
+.tabs {
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab {
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 5px;
+  color: #4d4f5c;
+  opacity: 0.75;
+  font-size: 16px;
+}
+
+.activeTab {
+  font-weight: 500;
+  border-bottom: 3px solid #1bc2ad;
+  opacity: 1;
+}
+
+.tab:hover {
+  opacity: 0.6;
+}
+
+.activeTab:hover {
+  opacity: 1;
+}

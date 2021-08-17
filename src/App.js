@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { ToastProvider, useToasts } from 'react-toast-notifications';
 import './App.css';
+import Routes from './routes/Routes';
+import Context from './reusables/context/Context';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ToastProvider>
+      <Context>
+        <Router>
+          <Routes />
+        </Router>
+      </Context>
+    </ToastProvider>
   );
 }
 

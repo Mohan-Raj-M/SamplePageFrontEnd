@@ -1,0 +1,25 @@
+.button {
+  min-width: 100px;
+  min-height: 35px;
+  border-radius: 8px;
+  background-image: linear-gradient(to left, #0ce3c8, #1cc1ac);
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 5px 1px #c4c4c4;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.outline {
+  border: 1px solid #1bc2ad;
+  color: #1cc2ad;
+  background-color: #ffffff;
+  background: none;
+}

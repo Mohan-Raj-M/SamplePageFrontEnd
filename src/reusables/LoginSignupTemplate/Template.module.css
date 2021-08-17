@@ -1,0 +1,64 @@
+.outerDiv {
+  min-height: 80vh;
+  background-color: #ebfcfb;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 580px) {
+  .outerDiv {
+    display: flex;
+  }
+}
+
+.innerDiv {
+  padding: 10px;
+  border: 1px solid #1cc2ad;
+  border-radius: 10px;
+  background-color: #ffffff;
+  max-width: 450px;
+}
+
+.logo {
+  width: 135px;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footerButton {
+  padding-left: 5px;
+
+  color: #0df0d5;
+  background-color: #ffffff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footerButton:focus {
+  outline: none;
+}
+
+.title {
+  margin-top: 3vh;
+  margin-bottom: 2.5vh;
+  color: #4d4f5c;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.subTitle {
+  color: '#4d4f5c';
+  font-size: 17px;
+}
+
+@media screen and (max-width: 580px) {
+}

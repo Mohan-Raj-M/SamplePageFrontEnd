@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.item {
+  align-items: center;
+  text-align: center;
+  text-align: center;
+}
+
+.item:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 580px) {
+  .item > img {
+    width: 6vh;
+    height: 6vh;
+  }
+  .item > p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 580px) {
+  .item > img {
+    width: 10vh;
+    height: 10vh;
+  }
+  .item > p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+}

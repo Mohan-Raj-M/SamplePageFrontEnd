@@ -1,0 +1,107 @@
+@media screen and (min-width: 650px) {
+  .container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+  }
+  .phone {
+    flex: 1;
+  }
+  .modal {
+    border-radius: 20px;
+    border: 2px solid #1cc2ad;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, -50%);
+    height: 30vh;
+    width: 23vw;
+    min-width: 400px;
+    background-color: #ffffff;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    outline: none;
+    z-index: 2;
+    margin-top: 30px;
+  }
+
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .title {
+    text-align: center;
+    align-self: center;
+    padding: 0px 150px;
+  }
+  .message {
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .modal {
+    border-radius: 10px;
+    border: 0.1px solid #1cc2ad;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, -50%);
+    height: 35vh;
+    width: 33vw;
+    min-width: 330px;
+    background-color: #ffffff;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    outline: none;
+    z-index: 2;
+    margin-top: 60px;
+    overflow: scroll;
+  }
+  .phone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .title {
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .message {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
